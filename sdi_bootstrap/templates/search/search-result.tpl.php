@@ -66,6 +66,7 @@
 ?>
 
 <article class="<?php print $classes; ?>"<?php print $attributes; ?>>
+  <hr>
   <header class="entry-header">
     <h1 class="entry-title">
       <a href="<?php print $url; ?>"><?php print $title; ?></a>
@@ -76,11 +77,5 @@
     <div class="entry-summary">
       <p class="search-snippet"<?php print $content_attributes; ?>><?php print $snippet; ?></p>
     </div><!-- .entry-summary -->
-  <?php endif; ?>
-
-  <?php if ($info): ?>
-    <footer class="entry-meta">
-      This entry was posted on <?php print $info_split['date']; ?>
-    </footer><!-- .entry-meta -->
   <?php endif; ?>
 </article>
