@@ -64,18 +64,23 @@
  * @ingroup themeable
  */
 ?>
-<li class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <?php print render($title_prefix); ?>
-  <h3 class="title"<?php print $title_attributes; ?>>
-    <a href="<?php print $url; ?>"><?php print $title; ?></a>
-  </h3>
-  <?php print render($title_suffix); ?>
-  <div class="search-snippet-info">
-    <?php if ($snippet): ?>
+
+<article class="<?php print $classes; ?>"<?php print $attributes; ?>>
+  <header class="entry-header">
+    <h1 class="entry-title">
+      <a href="<?php print $url; ?>"><?php print $title; ?></a>
+    </h1>
+  </header><!-- .entry-header -->
+
+  <?php if ($snippet): ?>
+    <div class="entry-summary">
       <p class="search-snippet"<?php print $content_attributes; ?>><?php print $snippet; ?></p>
-    <?php endif; ?>
-    <?php if ($info): ?>
-      <p class="search-info"><?php print $info_split['date']; ?></p>
-    <?php endif; ?>
-  </div>
-</li>
+    </div><!-- .entry-summary -->
+  <?php endif; ?>
+
+  <?php if ($info): ?>
+    <footer class="entry-meta">
+      This entry was posted on <?php print $info_split['date']; ?>
+    </footer><!-- .entry-meta -->
+  <?php endif; ?>
+</article>
