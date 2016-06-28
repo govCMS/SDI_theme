@@ -1,0 +1,8 @@
+.hide-header-text #header .logo,
+.hide-header-text #header #logo,
+.hide-header-text #header .site-brand,
+.hide-header-text #header .titlewrapper,
+.hide-header-text header .site-brand {
+	position: absolute !important;
+	left: -9999px !important;
+}

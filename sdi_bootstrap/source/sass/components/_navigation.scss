@@ -1,0 +1,81 @@
+// Theme Customizations to Navigation //
+
+// Overrides for Superfish styling
+.sf-menu.sf-horizontal.menu //Horizontal version of the Superfish menu
+{
+  li {
+     margin: 0 2.857142857rem 0 0;
+     position: relative;
+  }
+}
+// END - Overrides for Superfish styling
+
+// Drupal menu: Footer Sub Menu
+// Machine name: menu-footer-sub-menu
+footer {
+  #block-menu-block-1 {
+    @media screen and (min-width: 720px) {
+      width: 48%;
+      clear:none;
+      display: inline-block;
+    }
+    .menu-name-menu-footer-sub-menu {
+        display: block;
+        clear: both;
+        padding: 10px 0 0 0;
+        font-size: .95em;
+        color: #ccc;
+        margin-bottom: 25px;
+
+        .nav {
+          line-height: 1.2em;
+          li {
+            display: inline;
+            margin-right: 0.2em;
+            padding-right: 0.65em;
+            padding-left: 0.65em;
+
+            border-right: 1px solid #696969;
+            &:first-child {
+              padding-left: 0;
+            }
+            &:last-child {
+              border-right: none;
+            }
+            a {
+              text-decoration: underline;
+            }
+          }
+
+        }
+    }
+
+  }
+  #block-block-1 {
+    line-height: 1.2em;
+    padding-top: 9px;
+    a {
+      color: inherit;
+    }
+    @media screen and (min-width: 720px) {
+      width: 48%;
+      float: right;
+      clear: none;
+    }
+  }
+}
+
+
+// Drupal tabs for content
+.tabs--primary.nav.nav-tabs {
+  float: none;
+  display: block;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  li {
+    margin-right: 10px;
+    float:none;
+    display: inline-block;
+  }
+}

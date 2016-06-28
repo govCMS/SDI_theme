@@ -1,0 +1,47 @@
+/*
+Theme Name:     Twenty Twelve - govspace
+Description:    Child theme for the Twenty Twelve theme that includes govspace modifications
+Author:         govspace
+Author URI:     http://govspace.gov.au
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+@import url("../../mu-plugins/govspace-jetlev/css/child-style.css");
+
+.search_wrapper_nav #search_form {
+	float: right;
+	margin-top: 4px;
+	margin-bottom: 0;
+	margin-right: 10px;
+}
+
+/* Navigation tabbing Fix */
+.main-navigation li ul {
+	display: inherit;
+}
+
+.main-navigation li ul ul {
+	top: 0;
+	left: 2000%;
+}
+
+.feature-container {
+	margin: 10px;
+	border-bottom: 4px double #ededed;
+}
+
+.feature-container p {
+	margin-bottom: 5px;
+	line-height: 1.7em;
+}
+
+#socialicons {
+    padding-right: 0.5em;
+}
+#copyright .credit {
+	width: 10em;
+	text-align: right;
+}

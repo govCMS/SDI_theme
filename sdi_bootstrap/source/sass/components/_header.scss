@@ -1,0 +1,17 @@
+// Theme Customizations to Header //
+header {
+  // Breadcrumbs
+  // These element are created in template.php
+  .breadcrumb {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+  .logo.navbar-btn {
+    margin-bottom: 25px;
+  }
+}

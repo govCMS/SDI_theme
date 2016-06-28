@@ -1,0 +1,113 @@
+/*
+SDI CSS
+Welcome to Custom CSS!
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+
+h1 {
+font-size: 150%;
+}
+.entry-header .entry-title {
+font-weight: bold;
+font-color: red;
+}
+DIV#cat-nav {
+margin-bottom:10px;
+}
+.site {
+overflow: visible;
+}
+.main-navigation li a {
+text-transform: none;
+white-space: normal;
+}
+.main-navigation li {
+font-size: 110%;
+}
+.nav a {
+padding-right: 0px;
+padding-left: 0px;
+}
+.main-navigation li ul li a {
+font-size: 0.95rem;
+}
+a {
+color: #1b8be0;
+}
+.nav li ul ul {
+margin-top: 10px;
+}
+@media print {
+body {
+background:white;
+color:black;
+margin:0;
+font-size:11pt;
+}
+#header {
+display: block;
+}
+#cat-nav {
+display: none;
+}
+#content {
+display: block;
+}
+#comments {
+display: block;
+}
+#sidebar {
+display: none;
+}
+#footer {
+display: none;
+}
+}
+.site-content {
+width: 100%;
+}
+.entry-content a:visited, .comment-content a:visited {
+color: #1b8be0;
+}
+.site-header{
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+.entry-content h5, .comment-content h5{
+line-height: 0.5;
+}
+.entry-content h4, .comment-content h4{
+line-height: 0.5;
+}
+.entry-content h3, .comment-content h3{
+line-height: 0.5;
+}
+.entry-content h2, .comment-content h2{
+line-height: 0.5;
+}
+#header img {
+width: 100%;
+}
+.widget-area .widget a:visited {
+color: #1b8be0;
+}
+.widget-area .widget a {
+color: #1b8be0;
+}
+a:hover {
+color:#1b8be0;
+}
+.post-2951 .entry-header {
+visibility: hidden;
+height: 0px;
+margin-bottom: 0rem;
+}
+.post-2951 .site-content {
+margin-top: 0px;
+}
+.entry-content img {
+box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+}
+sub, sup {
+font-size: 110%;
+}

@@ -1,0 +1,31 @@
+// Theme Customizations to Forms/Webforms //
+
+// Comment form
+.comment-wrapper {
+  h2 {
+    margin-bottom: 15px;
+  }
+  .comment-form {
+    .form-item {
+      margin-bottom: 10px;
+      label {
+        display: inline-block;
+        width: 100px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .form-actions {
+    margin: 20px 0;
+  }
+}
+
+// Search form
+// Refer to sdi_bootstrap_form_search_block_form_alter
+// and sdi_bootstrap_bootstrap_search_form_wrapper in template.php
+// and also search-block-form.tpl.php
+.search-submit {
+  margin-left: 5px;
+  display: inline-block;
+  background-color: #e6e6e6;
+}

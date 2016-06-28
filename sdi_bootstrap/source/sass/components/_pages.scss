@@ -1,0 +1,15 @@
+// Styles for specific pages across the site
+
+// Site map
+.page-sitemap {
+  line-height: 2em;
+  .site-map-message {
+    margin-bottom: 20px;
+  }
+  ul.site-map-menu {
+    margin-left: 20px;
+    li {
+      list-style-type: disc;
+    }
+  }
+}

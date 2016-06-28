@@ -1,0 +1,256 @@
+#header {
+	clear: both;
+}
+
+/* Sitename */
+div .logo {
+	float: right;
+	text-align: right;
+}
+
+h1#title, div#title, div.logo img {
+	font-size: 3em;
+	color: #000;
+	font-weight: bold;
+	text-shadow: 0 2px 0 #a6a6a6;
+	line-height: 77px;
+}
+
+h1#title a, div#title a {
+	text-decoration: none !important;
+}
+
+h1#title a:link, h1#title a:visited, div#title a:link, div#title a:visited {
+	color: #000;
+}
+
+h1#title a:link, h1#title a:visited, div#title a:link, div#title a:visited {
+	color: #000;
+}
+
+/* Adding styles for custom footer */
+#copyright {
+	display: block;
+	clear: both;
+	padding: 10px 0 30px 0;
+	font-size: .95em;
+	color: #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -45px;
+}
+
+div#copyright ul li {
+	display: inline;
+	margin-right: 0.2em;
+	padding-right: 0.65em;
+	border-right: 1px solid #696969;
+}
+
+div#copyright ul li.lastFooterItem {
+	border-right: none;
+}
+
+div#copyright a, div#copyright a:link, div#copyright a:visited {
+	font-weight: normal;
+}
+
+#copyright a:link, #copyright a:visited {
+	color: #696969;
+	font-weight: bold;
+}
+
+#copyright .credit {
+	margin-top: -12px;
+}
+
+p.credit {
+	float: right;
+	color: #696969
+}
+
+
+/* Adding styles for search results */
+h1.search-results {
+	font-size: 22px;
+}
+
+#search_form .accessible, .skipnav {
+	display: none;
+}
+
+/*#search_form {
+	float: right;
+	margin-top: -16px;
+	margin-bottom: 0;
+}*/
+
+.search_wrapper_tr {
+	float: right;
+}
+
+#secondary #search_form {
+	margin-bottom: 20px;
+}
+
+#search_form.inside-nav {
+	margin-top: -58px;
+	margin-right: 5px;
+}
+
+
+/* Custom menu */
+div#cat-nav {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	margin-bottom: 20px;
+}
+
+.nav {
+	float: left;
+	line-height: 45px;
+	margin: 0;
+}
+
+.search_wrapper_nav {
+	float: right;
+}
+
+.current_page_item {
+	font-weight: bold;
+}
+
+.nav a {
+	display: block;
+	color: #636363;
+	/*font-size: 12px;*/
+	text-decoration: none;
+	padding: 0 20px;
+	/*text-transform: uppercase;*/
+}
+
+.nav a:hover { color: #000; }
+
+.nav li { float: left; }
+
+.nav ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	/*width: 200px;*/
+	font-weight: normal;
+	z-index: 999;
+	padding-bottom: 10px;
+}
+
+.nav ul a, .nav li a {
+	display: block;
+	position: relative;
+}
+
+.nav ul a {
+	font-weight: normal;
+	color: #636363;
+	text-shadow: none;
+}
+
+.nav li li {
+	/*width: 200px;*/
+	background: #efefef;
+}
+
+.nav li li a {
+	margin: 0;
+	padding: 8px 10px 8px 20px;
+	width: 170px;
+	line-height: 20px;
+}
+
+.nav li ul ul {
+	margin: 0 0 0 200px;
+}
+
+/*
+    Note: as these styles are global, take care when editing them
+    For example: twentyeleven-govspace/js/menu-focus-fix.js uses these styles
+ */
+.nav li:hover ul ul, .nav li:hover ul ul ul, .nav li:hover ul ul ul ul, .nav li.sfhover ul ul, .nav li.sfhover ul ul ul, .nav li.sfhover ul ul ul ul { left: -999em; }
+
+.nav li:hover ul, .nav li li:hover ul, .nav li li li:hover ul, .nav li li li li:hover ul, .nav li.sfhover ul, .nav li li.sfhover ul, .nav li li li.sfhover ul, .nav li li li li.sfhover ul { left: auto; }
+
+.nav li:hover, .nav li.sfhover, .nav .current_page_parent, .nav .current_page_ancestor, .nav .current-cat-parent, .nav .current-cat, .nav .current_page_item, .nav .current_page_item a, .nav .current-cat a {
+color: #636363;
+}
+
+.nav li li:hover, .nav li li.sfhover, .nav li li.current_page_parent, .nav li li.current_page_ancestor, .nav li li.current-cat-parent, .nav li li.current-cat, .nav li li.current_page_item { background: #dedede; }
+
+.main-navigation li ul li a {
+	text-align: left;
+}
+
+.coa-titles span {
+	line-height: 20px;
+}
+
+h2.page-title.search-results {
+	font-size: 1.2em;
+	line-height: 2.18;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #636363;
+}
+
+.search-results h1.entry-title, .search-results h1.post-title {
+	font-size: 1.5em;
+}
+
+#search_form div label {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+#feature .feature-main {
+	font-size: 1.2em;
+}
+
+#feature .feature-sidebar {
+	font-size: .85em;
+}
+
+.feature-container {
+	padding: 10px;
+}
+
+.featured-single .feature-main {
+	width: 100%;
+}
+
+.featured-double .feature-main {
+	width: 60%;
+	float: left;
+}
+
+.featured-double .feature-sidebar {
+	width: 39%;
+	float: right;
+}
+
+#socialicons {
+	float: right;
+}
+
+#socialicons h2 {
+	display: none;
+}
+
+#header ul#follow {
+	margin-right: 0px;
+}

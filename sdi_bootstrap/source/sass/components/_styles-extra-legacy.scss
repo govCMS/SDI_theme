@@ -1,0 +1,12 @@
+/*
+SDI EXTRA CSS
+*/
+
+.site-title,
+.site-description {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+body.custom-background { background-color: #f9f9f9; }
